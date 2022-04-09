@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "e-comm-app",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
