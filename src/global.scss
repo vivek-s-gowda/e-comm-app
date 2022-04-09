@@ -16,7 +16,7 @@
 @import "~@ionic/angular/css/normalize.css";
 @import "~@ionic/angular/css/structure.css";
 @import "~@ionic/angular/css/typography.css";
-@import '~@ionic/angular/css/display.css';
+@import "~@ionic/angular/css/display.css";
 
 /* Optional CSS utils that can be commented out */
 @import "~@ionic/angular/css/padding.css";
@@ -24,3 +24,28 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+@import url("https://fonts.googleapis.com/css2?family=Nova+Round&display=swap");
+
+$primary-color: #ffcc22;
+
+.layout-with-background {
+  background-color: $primary-color;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.inverted-button {
+  width: 100%;
+  height: 70px;
+  background: #ffffff;
+  border-radius: 30px;
+  font-family: "Nova Round", cursive;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: $primary-color;
+}
