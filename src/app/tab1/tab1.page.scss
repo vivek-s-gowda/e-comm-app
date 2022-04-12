@@ -6,6 +6,7 @@
   width: 100%;
   height: 100%;
   padding-bottom: 0px;
+  overflow: auto;
 }
 
 .menu-size {
@@ -122,8 +123,23 @@ drag-scroll {
   }
 }
 
+.nav-top {
+  margin-top: 8px;
+}
 .item-container {
   height: 40%;
   display: flex;
   overflow: auto;
 }
+
+.right-list-margin {
+  margin-top: 55px;
+}
+
+.item-listed {
+  display: flex;
+  height: 100%;
+  margin-left: -18px;
+}
+
+

@@ -3,16 +3,16 @@
 
   <div class="header">Delicious mangoes for you</div>
   <ion-searchbar animated class="search"></ion-searchbar>
-  <drag-scroll>
-    <ul class="nav nav-tabs">
-      <li class="nav-item">
-        <a class="nav-link active" aria-current="page">Mangoes</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link">Products</a>
-      </li>
-    </ul>
-  </drag-scroll>
+  <!-- <drag-scroll> -->
+  <ul class="nav nav-tabs nav-top">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page">Mangoes</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link">Products</a>
+    </li>
+  </ul>
+  <!-- </drag-scroll> -->
 
   <!-- <div class="container">
     <drag-scroll>
@@ -66,7 +66,7 @@
     </drag-scroll>
   </div> -->
 
-  <div class="item-container">
+  <!-- <div class="item-container">
     <div class="item">
       <div class="item-img">
         <img src="assets/icon.svg" />
@@ -98,6 +98,70 @@
     </div>
 
     <div class="item">
+      <div class="item-img">
+        <img src="assets/icon.svg" />
+      </div>
+      <div class="item-card">
+        <div class="item-name">Alfanso</div>
+        <div class="item-price">₹ 200</div>
+      </div>
+    </div>
+  </div> -->
+
+  <div class="item-listed">
+    <div class="item" [routerLink]="['item-detail']">
+      <div class="item-img">
+        <img src="assets/icon.svg" />
+      </div>
+      <div class="item-card">
+        <div class="item-name">Alfanso</div>
+        <div class="item-price">₹ 200</div>
+      </div>
+    </div>
+
+    <div class="item right-list-margin" [routerLink]="['item-detail']">
+      <div class="item-img">
+        <img src="assets/icon.svg" />
+      </div>
+      <div class="item-card">
+        <div class="item-name">Alfanso</div>
+        <div class="item-price">₹ 200</div>
+      </div>
+    </div>
+  </div>
+  <div class="item-listed">
+    <div class="item">
+      <div class="item-img">
+        <img src="assets/icon.svg" />
+      </div>
+      <div class="item-card">
+        <div class="item-name">Alfanso</div>
+        <div class="item-price">₹ 200</div>
+      </div>
+    </div>
+
+    <div class="item right-list-margin">
+      <div class="item-img">
+        <img src="assets/icon.svg" />
+      </div>
+      <div class="item-card">
+        <div class="item-name">Alfanso</div>
+        <div class="item-price">₹ 200</div>
+      </div>
+    </div>
+  </div>
+  <div class="item-listed">
+    <div class="item">
+      <div class="item-img">
+        <img src="assets/icon.svg" />
+      </div>
+      <div class="item-card">
+        <div class="item-name">Alfanso</div>
+        <div class="item-price">₹ 200</div>
+      </div>
+    </div>
+
+    <div class="item right-list-margin">
       <div class="item-img">
         <img src="assets/icon.svg" />
       </div>
