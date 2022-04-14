@@ -1,20 +1,26 @@
-<div class="default-page-padding">
-  <img class="menu-size" src="assets/sideMenu.svg" />
+<ion-content>
+  <div class="default-page-padding">
+    <span class="header-icons">
+      <img class="menu-size" src="assets/sideMenu.svg" />
+      <img
+        [routerLink]="['/','home','cart']"
+        src="assets/icon/shopping-cart.svg"
+    /></span>
 
-  <div class="header">Delicious mangoes for you</div>
-  <ion-searchbar animated class="search"></ion-searchbar>
-  <!-- <drag-scroll> -->
-  <ul class="nav nav-tabs nav-top">
-    <li class="nav-item">
-      <a class="nav-link active" aria-current="page">Mangoes</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link">Products</a>
-    </li>
-  </ul>
-  <!-- </drag-scroll> -->
+    <div class="header">Delicious mangoes for you</div>
+    <ion-searchbar animated class="search"></ion-searchbar>
+    <!-- <drag-scroll> -->
+    <ul class="nav nav-tabs nav-top">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page">Mangoes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link">Products</a>
+      </li>
+    </ul>
+    <!-- </drag-scroll> -->
 
-  <!-- <div class="container">
+    <!-- <div class="container">
     <drag-scroll>
       <div class="item">
         <img src="assets/icon.svg" />
@@ -22,7 +28,7 @@
       </div>
     </drag-scroll>
   </div> -->
-  <!-- <div class="container">
+    <!-- <div class="container">
     <drag-scroll>
       <div class="item">
         <div class="item-img">
@@ -66,7 +72,7 @@
     </drag-scroll>
   </div> -->
 
-  <!-- <div class="item-container">
+    <!-- <div class="item-container">
     <div class="item">
       <div class="item-img">
         <img src="assets/icon.svg" />
@@ -108,67 +114,68 @@
     </div>
   </div> -->
 
-  <div class="item-listed">
-    <div class="item" [routerLink]="['item-detail']">
-      <div class="item-img">
-        <img src="assets/icon.svg" />
+    <div class="item-listed">
+      <div class="item" [routerLink]="['item-detail']">
+        <div class="item-img">
+          <img src="assets/icon.svg" />
+        </div>
+        <div class="item-card">
+          <div class="item-name">Alfanso</div>
+          <div class="item-price">₹ 200</div>
+        </div>
       </div>
-      <div class="item-card">
-        <div class="item-name">Alfanso</div>
-        <div class="item-price">₹ 200</div>
+
+      <div class="item right-list-margin" [routerLink]="['item-detail']">
+        <div class="item-img">
+          <img src="assets/icon.svg" />
+        </div>
+        <div class="item-card">
+          <div class="item-name">Alfanso</div>
+          <div class="item-price">₹ 200</div>
+        </div>
       </div>
     </div>
-
-    <div class="item right-list-margin" [routerLink]="['item-detail']">
-      <div class="item-img">
-        <img src="assets/icon.svg" />
+    <div class="item-listed">
+      <div class="item">
+        <div class="item-img">
+          <img src="assets/icon.svg" />
+        </div>
+        <div class="item-card">
+          <div class="item-name">Alfanso</div>
+          <div class="item-price">₹ 200</div>
+        </div>
       </div>
-      <div class="item-card">
-        <div class="item-name">Alfanso</div>
-        <div class="item-price">₹ 200</div>
+
+      <div class="item right-list-margin">
+        <div class="item-img">
+          <img src="assets/icon.svg" />
+        </div>
+        <div class="item-card">
+          <div class="item-name">Alfanso</div>
+          <div class="item-price">₹ 200</div>
+        </div>
+      </div>
+    </div>
+    <div class="item-listed">
+      <div class="item">
+        <div class="item-img">
+          <img src="assets/icon.svg" />
+        </div>
+        <div class="item-card">
+          <div class="item-name">Alfanso</div>
+          <div class="item-price">₹ 200</div>
+        </div>
+      </div>
+
+      <div class="item right-list-margin">
+        <div class="item-img">
+          <img src="assets/icon.svg" />
+        </div>
+        <div class="item-card">
+          <div class="item-name">Alfanso</div>
+          <div class="item-price">₹ 200</div>
+        </div>
       </div>
     </div>
   </div>
-  <div class="item-listed">
-    <div class="item">
-      <div class="item-img">
-        <img src="assets/icon.svg" />
-      </div>
-      <div class="item-card">
-        <div class="item-name">Alfanso</div>
-        <div class="item-price">₹ 200</div>
-      </div>
-    </div>
-
-    <div class="item right-list-margin">
-      <div class="item-img">
-        <img src="assets/icon.svg" />
-      </div>
-      <div class="item-card">
-        <div class="item-name">Alfanso</div>
-        <div class="item-price">₹ 200</div>
-      </div>
-    </div>
-  </div>
-  <div class="item-listed">
-    <div class="item">
-      <div class="item-img">
-        <img src="assets/icon.svg" />
-      </div>
-      <div class="item-card">
-        <div class="item-name">Alfanso</div>
-        <div class="item-price">₹ 200</div>
-      </div>
-    </div>
-
-    <div class="item right-list-margin">
-      <div class="item-img">
-        <img src="assets/icon.svg" />
-      </div>
-      <div class="item-card">
-        <div class="item-name">Alfanso</div>
-        <div class="item-price">₹ 200</div>
-      </div>
-    </div>
-  </div>
-</div>
+</ion-content>

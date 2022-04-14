@@ -1,0 +1,18 @@
+<ion-content>
+  <div class="default-page-padding">
+    <span class="header-icons">
+      <div class="back-button" [routerLink]="['/','home','main']">
+        <img src="assets/backbutton.svg" />
+      </div>
+      <span class="header-text"> Orders </span>
+      <img
+        [routerLink]="['/','home','cart']"
+        src="assets/icon/shopping-cart.svg"
+      />
+    </span>
+
+    <img src="assets/icon/cart.svg" />
+    <h2 class="no-order-text">No Orders yet</h2>
+    <button class="custom-button">Start Ordering</button>
+  </div>
+</ion-content>
