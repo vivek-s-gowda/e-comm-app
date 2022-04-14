@@ -54,6 +54,11 @@ drag-scroll {
   border-bottom: 3px solid #ffcc22;
 }
 
+.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+  border-color: #fff #fff #fff;
+  isolation: isolate;
+}
+
 .nav-link {
   font-family: roundedFont;
   font-style: normal;
