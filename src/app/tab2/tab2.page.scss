@@ -16,3 +16,45 @@
   font-size: 18px;
   color: #000000;
 }
+
+.headings {
+  font-family: roundedFont;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  color: #000000;
+}
+
+.profile-card {
+  background: #ffffff;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.03);
+  border-radius: 20px;
+  box-shadow: -1px 0px 11px;
+  padding: 12px;
+  .profile-name {
+    font-family: roundedFont;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+  }
+  .profile-email {
+    font-family: roundedFont;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    opacity: 0.5;
+  }
+  .profile-addr {
+    font-family: roundedFont;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    opacity: 0.5;
+  }
+}
